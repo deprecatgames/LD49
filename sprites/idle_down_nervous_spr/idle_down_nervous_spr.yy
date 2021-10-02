@@ -1,0 +1,171 @@
+{
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 0,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 286,
+  "bbox_right": 839,
+  "bbox_top": 0,
+  "bbox_bottom": 607,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 1081,
+  "height": 608,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"bf6775d5-3f1c-4a30-a02f-5010fc3d908b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bf6775d5-3f1c-4a30-a02f-5010fc3d908b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"bf6775d5-3f1c-4a30-a02f-5010fc3d908b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d5a9693d-06c8-429c-b55e-581c67f79d06","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d5a9693d-06c8-429c-b55e-581c67f79d06","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"d5a9693d-06c8-429c-b55e-581c67f79d06","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"baf7552b-8e29-4a30-8d99-989251ce77e6","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"baf7552b-8e29-4a30-8d99-989251ce77e6","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"baf7552b-8e29-4a30-8d99-989251ce77e6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a5fa178c-a269-4f35-99e5-fa9497663538","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a5fa178c-a269-4f35-99e5-fa9497663538","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"a5fa178c-a269-4f35-99e5-fa9497663538","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1f9b3ab0-932c-4492-b578-afb4b330ca99","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1f9b3ab0-932c-4492-b578-afb4b330ca99","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"1f9b3ab0-932c-4492-b578-afb4b330ca99","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"db6cc825-748a-4eda-8db9-46f138217a81","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"db6cc825-748a-4eda-8db9-46f138217a81","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"db6cc825-748a-4eda-8db9-46f138217a81","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1853536e-dc78-45cf-91e2-60c70e9a3c2b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1853536e-dc78-45cf-91e2-60c70e9a3c2b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"1853536e-dc78-45cf-91e2-60c70e9a3c2b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f4891dfe-7dcf-44b8-a9bd-ac3d8637ac0a","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f4891dfe-7dcf-44b8-a9bd-ac3d8637ac0a","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"f4891dfe-7dcf-44b8-a9bd-ac3d8637ac0a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fc0f52bf-e67a-4ea1-949c-cf4c5e11981e","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fc0f52bf-e67a-4ea1-949c-cf4c5e11981e","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"fc0f52bf-e67a-4ea1-949c-cf4c5e11981e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c0fbad26-4897-430c-9b26-9512e8a88d88","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c0fbad26-4897-430c-9b26-9512e8a88d88","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"c0fbad26-4897-430c-9b26-9512e8a88d88","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9ecc3061-d607-4f5a-9007-2a8bc2265ccd","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9ecc3061-d607-4f5a-9007-2a8bc2265ccd","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"9ecc3061-d607-4f5a-9007-2a8bc2265ccd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"01a6c438-24bd-449b-b939-dc5a3e60b733","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"01a6c438-24bd-449b-b939-dc5a3e60b733","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"01a6c438-24bd-449b-b939-dc5a3e60b733","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4eedd3ff-b9df-41b7-b08c-7521fd415b53","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4eedd3ff-b9df-41b7-b08c-7521fd415b53","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"4eedd3ff-b9df-41b7-b08c-7521fd415b53","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5f5c33f0-97b4-4d6c-95d9-2e77009bd1ff","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5f5c33f0-97b4-4d6c-95d9-2e77009bd1ff","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"5f5c33f0-97b4-4d6c-95d9-2e77009bd1ff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"345332c5-aaf8-48c8-bde7-dfdf743d6832","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"345332c5-aaf8-48c8-bde7-dfdf743d6832","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"345332c5-aaf8-48c8-bde7-dfdf743d6832","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7d275c2a-adc8-4bee-b09c-aecc3a9b5bd8","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7d275c2a-adc8-4bee-b09c-aecc3a9b5bd8","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"7d275c2a-adc8-4bee-b09c-aecc3a9b5bd8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"96e9956f-7788-4e61-ac9c-bd11a46a7d03","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"96e9956f-7788-4e61-ac9c-bd11a46a7d03","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"96e9956f-7788-4e61-ac9c-bd11a46a7d03","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"64a9ab6f-8934-4ecb-8b6f-7dca27c8ac31","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"64a9ab6f-8934-4ecb-8b6f-7dca27c8ac31","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"64a9ab6f-8934-4ecb-8b6f-7dca27c8ac31","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d7d00364-383a-4874-b8bd-4bcf85736532","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d7d00364-383a-4874-b8bd-4bcf85736532","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"d7d00364-383a-4874-b8bd-4bcf85736532","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9a74feaf-3a71-4f84-8075-dad781949618","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9a74feaf-3a71-4f84-8075-dad781949618","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"9a74feaf-3a71-4f84-8075-dad781949618","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"20688d99-43f8-4704-8303-db76c07407a1","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"20688d99-43f8-4704-8303-db76c07407a1","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"20688d99-43f8-4704-8303-db76c07407a1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1cbdd0fb-86a5-4bef-a72f-f502a8a6a4d5","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1cbdd0fb-86a5-4bef-a72f-f502a8a6a4d5","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"1cbdd0fb-86a5-4bef-a72f-f502a8a6a4d5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d9efe71d-e6ba-467d-b929-a82948dc845b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d9efe71d-e6ba-467d-b929-a82948dc845b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"d9efe71d-e6ba-467d-b929-a82948dc845b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"41a0f035-c861-4407-8a22-098077dd5eec","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"41a0f035-c861-4407-8a22-098077dd5eec","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"LayerId":{"name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","name":"41a0f035-c861-4407-8a22-098077dd5eec","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 12.0,
+    "playbackSpeedType": 0,
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 24.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"2bb21eb2-7f90-447d-9e26-421f60bf6e04","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf6775d5-3f1c-4a30-a02f-5010fc3d908b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"224ded09-b5c5-4a4f-8a12-520bff239edb","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5a9693d-06c8-429c-b55e-581c67f79d06","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c739c625-e901-4c83-9ddd-747ceaeee53b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"baf7552b-8e29-4a30-8d99-989251ce77e6","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ebfb1c65-ecd0-4012-b9c9-4424be032541","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5fa178c-a269-4f35-99e5-fa9497663538","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"937a539a-7657-4264-b04d-d56ea7305390","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f9b3ab0-932c-4492-b578-afb4b330ca99","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c73845ec-3a4d-4207-bb90-447313bb55b8","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db6cc825-748a-4eda-8db9-46f138217a81","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ff984fe-60a8-4b0d-9924-7b0570219df3","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1853536e-dc78-45cf-91e2-60c70e9a3c2b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f9767ada-e81e-4440-ab57-27257594f57a","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f4891dfe-7dcf-44b8-a9bd-ac3d8637ac0a","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"81d443d6-e6b5-4f89-b6fc-eb458195fb79","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc0f52bf-e67a-4ea1-949c-cf4c5e11981e","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"98774134-2809-44b2-ac51-bd6b26486f54","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c0fbad26-4897-430c-9b26-9512e8a88d88","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"519c0f2f-ddfc-41df-b3ff-1e0394edcb43","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ecc3061-d607-4f5a-9007-2a8bc2265ccd","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"38901d46-d87c-47c3-9be7-e9187731edcc","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01a6c438-24bd-449b-b939-dc5a3e60b733","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4668a789-ba54-423d-8b1a-cca828e99192","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4eedd3ff-b9df-41b7-b08c-7521fd415b53","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e09e0b68-62fb-42fb-84f6-6ab7fa61d122","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f5c33f0-97b4-4d6c-95d9-2e77009bd1ff","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"46f950a3-8f86-44a4-9e54-513098199bce","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"345332c5-aaf8-48c8-bde7-dfdf743d6832","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e57e9aff-d888-47fa-9674-e7f800f15fa2","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d275c2a-adc8-4bee-b09c-aecc3a9b5bd8","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ca9c20be-920d-46f2-8406-8db2506bca59","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"96e9956f-7788-4e61-ac9c-bd11a46a7d03","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"df9d4f37-4435-4884-8ad1-300ddc75d72a","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64a9ab6f-8934-4ecb-8b6f-7dca27c8ac31","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0192ed90-27de-465b-81d2-9ec473337511","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d7d00364-383a-4874-b8bd-4bcf85736532","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d646d483-9a82-46e9-a468-919092d42ff7","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9a74feaf-3a71-4f84-8075-dad781949618","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8ce0ab6a-5e30-40b2-b518-eb243ddcfa8a","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"20688d99-43f8-4704-8303-db76c07407a1","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3c659c82-3c4f-4b01-944c-a69e5b27a870","Key":21.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1cbdd0fb-86a5-4bef-a72f-f502a8a6a4d5","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"deb7ead3-90fe-4d7f-b7ff-ec2ea4195629","Key":22.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d9efe71d-e6ba-467d-b929-a82948dc845b","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b810f9d9-c8a4-4775-9f5d-ccb9d59a2968","Key":23.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"41a0f035-c861-4407-8a22-098077dd5eec","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1366,
+    "backdropHeight": 768,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 0,
+    "yorigin": 0,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"idle_down_nervous_spr","path":"sprites/idle_down_nervous_spr/idle_down_nervous_spr.yy",},
+    "resourceVersion": "1.3",
+    "name": "idle_down_nervous_spr",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"30f5bfad-606d-41c5-985c-d7bd3d2f1780","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "nineSlice": null,
+  "parent": {
+    "name": "Idle Down",
+    "path": "folders/Sprites/Witch Animations/Idle Down.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "idle_down_nervous_spr",
+  "tags": [],
+  "resourceType": "GMSprite",
+}
