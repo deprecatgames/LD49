@@ -9,4 +9,4 @@ enum witchStates {
 }
 
 state = witchStates.armDown;
-emotion = 1;
+emotion = 0;

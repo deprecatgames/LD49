@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "00_INIT",
+    "path": "folders/00_INIT.yy",
   },
   "resourceVersion": "1.0",
   "name": "init_obj",

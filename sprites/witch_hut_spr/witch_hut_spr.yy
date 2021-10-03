@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1079,
+  "bbox_right": 1280,
   "bbox_top": 0,
-  "bbox_bottom": 607,
+  "bbox_bottom": 720,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1080,
-  "height": 608,
+  "width": 1281,
+  "height": 721,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d3b05ad8-74eb-4599-a48f-3a9d7377a979","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d3b05ad8-74eb-4599-a48f-3a9d7377a979","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"LayerId":{"name":"0de691ce-7edb-49e9-b5a6-95e5c2bacaba","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"witch_hut_spr","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"resourceVersion":"1.0","name":"d3b05ad8-74eb-4599-a48f-3a9d7377a979","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9520ae50-148e-4656-9b2d-fb7ce53b93aa","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9520ae50-148e-4656-9b2d-fb7ce53b93aa","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"LayerId":{"name":"e2f837d2-6e80-40c5-b675-b1ccd0675c53","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"witch_hut_spr","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"resourceVersion":"1.0","name":"9520ae50-148e-4656-9b2d-fb7ce53b93aa","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"witch_hut_spr","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"73bde5c0-271e-4099-9c54-8f74c54f2824","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3b05ad8-74eb-4599-a48f-3a9d7377a979","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"022c7372-a829-45d2-aeda-291d66607881","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9520ae50-148e-4656-9b2d-fb7ce53b93aa","path":"sprites/witch_hut_spr/witch_hut_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0de691ce-7edb-49e9-b5a6-95e5c2bacaba","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e2f837d2-6e80-40c5-b675-b1ccd0675c53","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Background",
-    "path": "folders/Sprites/Background.yy",
+    "name": "02_Background",
+    "path": "folders/02_Background.yy",
   },
   "resourceVersion": "1.0",
   "name": "witch_hut_spr",

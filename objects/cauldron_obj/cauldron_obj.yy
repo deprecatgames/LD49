@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cauldron",
-    "path": "folders/Objects/Cauldron.yy",
+    "name": "Objects",
+    "path": "folders/03_Cauldron/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "cauldron_obj",

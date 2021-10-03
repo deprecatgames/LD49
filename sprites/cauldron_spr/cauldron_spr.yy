@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 1,
-  "bbox_right": 708,
+  "bbox_right": 833,
   "bbox_top": 0,
-  "bbox_bottom": 449,
+  "bbox_bottom": 519,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 710,
-  "height": 450,
+  "width": 834,
+  "height": 520,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8fb71ee9-b53f-4263-aa69-311ac936e3b3","path":"sprites/cauldron_spr/cauldron_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8fb71ee9-b53f-4263-aa69-311ac936e3b3","path":"sprites/cauldron_spr/cauldron_spr.yy",},"LayerId":{"name":"4e24be91-8a60-441c-8793-f7f35eef8e67","path":"sprites/cauldron_spr/cauldron_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"cauldron_spr","path":"sprites/cauldron_spr/cauldron_spr.yy",},"resourceVersion":"1.0","name":"8fb71ee9-b53f-4263-aa69-311ac936e3b3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bbd99b60-23a7-4fe8-82ac-95aaefa246dd","path":"sprites/cauldron_spr/cauldron_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bbd99b60-23a7-4fe8-82ac-95aaefa246dd","path":"sprites/cauldron_spr/cauldron_spr.yy",},"LayerId":{"name":"3ffbb2f1-a793-4d5f-8f9a-1475d22ca13b","path":"sprites/cauldron_spr/cauldron_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"cauldron_spr","path":"sprites/cauldron_spr/cauldron_spr.yy",},"resourceVersion":"1.0","name":"bbd99b60-23a7-4fe8-82ac-95aaefa246dd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"cauldron_spr","path":"sprites/cauldron_spr/cauldron_spr.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"07e67806-27f4-402f-b744-dad71f71eeba","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8fb71ee9-b53f-4263-aa69-311ac936e3b3","path":"sprites/cauldron_spr/cauldron_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d1caf324-d8e0-4191-9ccf-72d39fde67a0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbd99b60-23a7-4fe8-82ac-95aaefa246dd","path":"sprites/cauldron_spr/cauldron_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 355,
-    "yorigin": 225,
+    "xorigin": 417,
+    "yorigin": 260,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"cauldron_spr","path":"sprites/cauldron_spr/cauldron_spr.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4e24be91-8a60-441c-8793-f7f35eef8e67","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ffbb2f1-a793-4d5f-8f9a-1475d22ca13b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Cauldron",
-    "path": "folders/Sprites/Cauldron.yy",
+    "name": "Sprites",
+    "path": "folders/03_Cauldron/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "cauldron_spr",
