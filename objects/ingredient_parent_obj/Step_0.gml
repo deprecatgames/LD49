@@ -15,7 +15,7 @@ if ( position_meeting(mouse_x, mouse_y, id) ) {
 	}
 	
 	if ( mouse_check_button_released(mb_left) ) {
-		if (!position_meeting(x,y,brewing_potion_obj) ) {
+		if (!place_meeting(x,y,brewing_potion_obj) ) {
 			canClick = true;
 			canDrop = false;
 			x = prevX;

@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 // global variables
-global.color = c_green;
+global.color = c_white;
 global.recipe = ["sleep", "blue"];
