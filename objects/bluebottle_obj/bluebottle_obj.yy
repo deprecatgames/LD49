@@ -34,7 +34,7 @@
   "name": "bluebottle_obj",
   "tags": [
     "attractive",
-    "calming",
+    "energizing",
     "blue",
   ],
   "resourceType": "GMObject",

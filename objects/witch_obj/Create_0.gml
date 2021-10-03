@@ -5,7 +5,8 @@ enum witchStates {
 	armDown,
 	armUp,
 	toss,
-	fail
+	fail,
+	win
 }
 
 state = witchStates.armDown;

@@ -5,10 +5,13 @@ prevY = y;
 
 canClick = true;
 canDraw = false;
+drawFull = false;
 canDrop = false;
 
+title = "sample text";
 description = "sample text";
 boxWid = string_length(description);
+sep = 30;
 
 tags = asset_get_tags(object_get_name(object_index));
 show_debug_message(tags);

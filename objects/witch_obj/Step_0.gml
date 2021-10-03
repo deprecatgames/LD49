@@ -34,8 +34,12 @@ switch(state) {
 	break; 
 	
 	case witchStates.fail:
-	if ( emotion == 0 ) sprite_index = idle_down_neutral_spr;
-	if ( emotion == 1 ) sprite_index = idle_down_annoyed_spr;
-	if ( emotion == 2 ) sprite_index = idle_down_nervous_spr;
+	sprite_index = fail_state_spr;
+	image_speed = 0.5;
+	break; 
+	
+	case witchStates.win:
+	sprite_index = win_state_spr;
+	image_speed = 0.5;
 	break; 
 }

@@ -27,7 +27,7 @@ else
 		draw_rectangle(0, 0, _cw, _ch, 0);
 		gpu_set_blendmode(bm_subtract);
 		with (light_parent_obj) {
-			if ( object_get_name(object_index) == "candle_glow_obj" ||  object_get_name(object_index) == "cauldron_light_obj" ) {
+			if ( object_get_name(object_index) == "candle_glow_obj" ||  object_get_name(object_index) == "cauldron_light_obj"  ||  object_get_name(object_index) == "effect_obj" ) {
 				gpu_set_blendmode(bm_subtract);
 				draw_sprite_ext(sprite, image_index, x, y, image_xscale, image_yscale,image_angle, c_white, image_alpha);
 				gpu_set_blendmode(bm_add);

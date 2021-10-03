@@ -14,6 +14,13 @@ if ( position_meeting(mouse_x, mouse_y, id) ) {
 		witch_obj.state = witchStates.armUp;
 	}
 	
+	if ( mouse_check_button_pressed(mb_right) ) {
+		drawFull = true;	
+		var ok = instance_create_depth(room_width/2, room_height - 330, depth - 1, continue_obj);
+		ok.text = "Close";
+		ok.event = 0;
+	}
+	
 	if ( mouse_check_button_released(mb_left) ) {
 		if (!place_meeting(x,y,brewing_potion_obj) ) {
 			canClick = true;
