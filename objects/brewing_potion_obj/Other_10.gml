@@ -51,121 +51,167 @@ switch(newColor) {
 	break;
 	
 	case "white":
-	if ( prevColor == "white" ) {
-		global.color = c_white;
-	}
-	if ( prevColor == "red" ) {
-		global.color = c_red;
-	}
-	if ( prevColor == "yellow" ) {
-		global.color = c_yellow;
-	}
-	if ( prevColor == "blue" ) {
-		global.color = c_blue;
-	}
 	prevColor = "white";
 	break;
+
 }
 #endregion
 
 
 // Checks if ingredient matches spell
-switch(global.recipe[0]) {
-	// "sleep", "hex", "poison", "love", "strength"
+
+// "sleep", "hex", "poison", "love", "health"
+
+switch(tag) {
 	case "sleep":
-		if ( tag1 == "sleepy" || tag1 == "calming" || tag2 == "sleepy" || tag2 == "calming" ) {
-			effect_obj.sprite_index = sleep_spr;
-			potionType = true;
+	if ( global.recipe[0] == "sleep" ) {
+		effect1_obj.sprite_index = sleep_spr;
+		potionType1 = true;
+		with ( witch_obj ) {
+			if ( emotion > 0 ) emotion--;	
+		}
+	}
+		
+	else if ( global.recipe[1] == "sleep" ) {
+			show_debug_message("sleep2");
+			effect2_obj.sprite_index = sleep_spr;
+			potionType2 = true;
 			with ( witch_obj ) {
 				if ( emotion > 0 ) emotion--;	
 			}
-		}
-		
-		if ( tag1 == "energize" || tag1 == "psychoactive" || tag2 == "energize" || tag2 == "psychoactive" ) {
-			effect_obj.sprite_index = bubble_spr;
-			potionType = false;
+	}
+	else {
+		potionType1 = false;	
+		potionType2 = false;
+		if ( room = EndlessRoom ) {
+			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
-			}
+			}	
 		}
-		
+		else event_user(2);
+	}	
 	break;
 	
 	case "hex":
-		if ( tag1 == "psychoactive" || tag1 == "scary" || tag2 == "psychoactive" || tag2 == "scary" ) {	
-			effect_obj.sprite_index = hex_spr;
-			potionType = true;
+	if ( global.recipe[0] == "hex" ) {
+		effect1_obj.sprite_index = hex_spr;
+		potionType1 = true;
+		with ( witch_obj ) {
+			if ( emotion > 0 ) emotion--;	
+		}
+	}
+		
+	else if ( global.recipe[1] == "hex" ) {
+		effect2_obj.sprite_index = hex_spr;
+			potionType2 = true;
 			with ( witch_obj ) {
 				if ( emotion > 0 ) emotion--;	
 			}
-		}
-		
-		if ( tag1 == "attractive" || tag1 == "calming" || tag2 == "attractive" || tag2 == "calming" ) {
-			effect_obj.sprite_index = bubble_spr;
-			potionType = false;
+	}
+	else {
+		potionType1 = false;	
+		potionType2 = false;
+		if ( room = EndlessRoom ) {
+			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
-			}
+			}	
 		}
+		else event_user(2);			
+	}	
+	break;
+	
+	case "health":
+	if ( global.recipe[0] == "health" ) {
+		effect1_obj.sprite_index = health_spr;
+		potionType1 = true;
+		with ( witch_obj ) {
+			if ( emotion > 0 ) emotion--;	
+		}
+	}
+		
+	else if ( global.recipe[1] == "health" ) {
+		effect2_obj.sprite_index = health_spr;
+			potionType2 = true;
+			with ( witch_obj ) {
+				if ( emotion > 0 ) emotion--;	
+			}
+	}
+	else {
+		potionType1 = false;	
+		potionType2 = false;
+		if ( room = EndlessRoom ) {
+			if (global.moves > global.maxMoves) event_user(2);
+			with ( witch_obj ) {
+				if ( emotion < 2 ) emotion++;	
+			}	
+		}
+		else event_user(2);			
+	}	
 	break;
 	
 	case "poison":
-		if ( tag1 == "poison" || tag1 == "painful" || tag2 == "poison" || tag2 == "painful" ) {
-			effect_obj.sprite_index = poison_spr;			
-			potionType = true;
+	if ( global.recipe[0] == "poison" ) {
+		effect1_obj.sprite_index = poison_spr;
+		potionType1 = true;
+		with ( witch_obj ) {
+			if ( emotion > 0 ) emotion--;	
+		}
+	}
+		
+	else if ( global.recipe[1] == "poison" ) {
+		effect2_obj.sprite_index = poison_spr;
+			potionType2 = true;
 			with ( witch_obj ) {
 				if ( emotion > 0 ) emotion--;	
 			}
-		}
-		
-		if ( tag1 == "energizing" || tag1 == "calming" || tag2 == "energizing" || tag2 == "calming" ) {
-			effect_obj.sprite_index = bubble_spr;
-			potionType = false;
+	}
+	else {
+		potionType1 = false;	
+		potionType2 = false;
+		if ( room = EndlessRoom ) {
+			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
-			}
+			}	
 		}
+		else event_user(2);			
+	}	
 	break;
-	
+
 	case "love":
-		if ( tag1 == "attractive" || tag1 == "calming" || tag2 == "attractive" || tag2 == "calming" ) {
-			potionType = true;			
-			effect_obj.sprite_index = love_spr;
+	if ( global.recipe[0] == "love" ) {
+		effect1_obj.sprite_index = love_spr;
+		potionType1 = true;
+		with ( witch_obj ) {
+			if ( emotion > 0 ) emotion--;	
+		}
+	}
+		
+	else if ( global.recipe[1] == "love" ) {
+		effect2_obj.sprite_index = love_spr;
+			potionType2 = true;
 			with ( witch_obj ) {
 				if ( emotion > 0 ) emotion--;	
 			}
-		}
-		
-		if ( tag1 == "poison" || tag1 == "painful" || tag2 == "poison" || tag2 == "painful" ) {
-			effect_obj.sprite_index = bubble_spr;
-			potionType = false;
+	}
+	else {
+		potionType1 = false;	
+		potionType2 = false;
+		if ( room = EndlessRoom ) {
+			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
-			}
+			}	
 		}
-	break;
-	
-	case "strength":
-		if ( tag1 == "energizing" || tag2 == "energizing" ) {
-			potionType = true;			
-			effect_obj.sprite_index = strength_spr;
-			with ( witch_obj ) {
-				if ( emotion > 0 ) emotion--;	
-			}
-		}
-		
-		if ( tag1 == "sleepy" || tag1 == "painful" || tag2 == "sleepy" || tag2 == "painful" ) {
-			effect_obj.sprite_index = bubble_spr;
-			potionType = false;
-			with ( witch_obj ) {
-				if ( emotion < 2 ) emotion++;	
-			}
-		}
+		else event_user(2);			
+	}	
 	break;
 }
 
 // Checks if color matches recipe
-switch(global.recipe[1]) {
+switch(global.recipe[2]) {
 	case "blue":
 	if ( global.color != c_blue ) colorMatch = false; else colorMatch = true;
 	break;
@@ -187,5 +233,12 @@ switch(global.recipe[1]) {
 
 }	
 
-global.moves++;
 
+
+if (!colorMatch) {
+	with ( witch_obj ) {
+		if ( emotion > 0 ) emotion++;	
+	}
+}
+
+show_debug_message(string(potionType1) + " " + string(potionType2));

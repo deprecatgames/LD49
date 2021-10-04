@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 88,
+  "bbox_right": 89,
   "bbox_top": 0,
   "bbox_bottom": 88,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 89,
+  "width": 90,
   "height": 89,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0223e056-af1f-49b5-b42f-05cca5de695e","path":"sprites/foxglove_spr/foxglove_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0223e056-af1f-49b5-b42f-05cca5de695e","path":"sprites/foxglove_spr/foxglove_spr.yy",},"LayerId":{"name":"2252f79d-c874-4317-9e56-1c0191444253","path":"sprites/foxglove_spr/foxglove_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"foxglove_spr","path":"sprites/foxglove_spr/foxglove_spr.yy",},"resourceVersion":"1.0","name":"0223e056-af1f-49b5-b42f-05cca5de695e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d15dd4ab-eeab-46d2-ba45-64e1b8496aa1","path":"sprites/foxglove_spr/foxglove_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d15dd4ab-eeab-46d2-ba45-64e1b8496aa1","path":"sprites/foxglove_spr/foxglove_spr.yy",},"LayerId":{"name":"666f1860-282c-4241-8204-5b2911eb8be1","path":"sprites/foxglove_spr/foxglove_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"foxglove_spr","path":"sprites/foxglove_spr/foxglove_spr.yy",},"resourceVersion":"1.0","name":"d15dd4ab-eeab-46d2-ba45-64e1b8496aa1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"foxglove_spr","path":"sprites/foxglove_spr/foxglove_spr.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"23db37e3-6674-44d6-9c43-8d9c0972abe1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0223e056-af1f-49b5-b42f-05cca5de695e","path":"sprites/foxglove_spr/foxglove_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6497ee8e-e5d2-4496-aaf3-ab4417c94204","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d15dd4ab-eeab-46d2-ba45-64e1b8496aa1","path":"sprites/foxglove_spr/foxglove_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 44,
+    "xorigin": 45,
     "yorigin": 44,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2252f79d-c874-4317-9e56-1c0191444253","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"666f1860-282c-4241-8204-5b2911eb8be1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Herbs",
-    "path": "folders/04_Ingredients/Herbs.yy",
+    "name": "Sprites",
+    "path": "folders/04_Ingredients/Herbs/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "foxglove_spr",

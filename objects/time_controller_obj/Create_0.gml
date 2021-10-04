@@ -3,4 +3,4 @@
 time = 0;
 
 canCount = true;
-alarm[0] = room_speed;
+alarm[0] = room_speed/2;

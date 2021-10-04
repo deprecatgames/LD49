@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Herbs",
-    "path": "folders/04_Ingredients/Herbs.yy",
+    "name": "Sprites",
+    "path": "folders/04_Ingredients/Herbs/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "mandrake_spr",

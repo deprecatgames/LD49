@@ -11,3 +11,4 @@ enum witchStates {
 
 state = witchStates.armDown;
 emotion = 0;
+playOnce = false;

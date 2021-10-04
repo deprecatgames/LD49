@@ -1,8 +1,14 @@
-/// @description  Finish potion brew
+/// @description  Win
 // You can write your code in this editor
 
-show_debug_message("you win!") 
+var winObj = instance_create_layer(288, 320, "GUI", next_GUI_obj);
+with ( winObj ) {
+	win = true;
+	event_user(0);
+}
+
 with ( witch_obj ) {
 	state = witchStates.win;
 }	
 
+canWin = false;

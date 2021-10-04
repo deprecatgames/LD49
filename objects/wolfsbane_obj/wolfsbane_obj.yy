@@ -27,14 +27,13 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Herbs",
-    "path": "folders/04_Ingredients/Herbs.yy",
+    "name": "Objects",
+    "path": "folders/04_Ingredients/Herbs/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "wolfsbane_obj",
   "tags": [
-    "poison",
-    "pain",
+    "hex",
     "blue",
   ],
   "resourceType": "GMObject",

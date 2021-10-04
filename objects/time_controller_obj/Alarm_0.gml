@@ -4,6 +4,6 @@ if ( canCount ) {
 	time++;
 	moon_obj.x += 2;
 	moon_obj.y -= 5;
-	alarm[0] = room_speed;
+	alarm[0] = room_speed/2;
 }
 

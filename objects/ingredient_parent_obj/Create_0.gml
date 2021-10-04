@@ -14,7 +14,6 @@ boxWid = string_length(description);
 sep = 30;
 
 tags = asset_get_tags(object_get_name(object_index));
-show_debug_message(tags);
-tag1 = tags[0];
-tag2 = tags[1];
-color = tags[2];
+
+tag = tags[0];
+color = tags[1];

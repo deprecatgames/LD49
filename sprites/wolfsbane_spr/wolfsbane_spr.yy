@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3ccf66d2-32ee-4601-a080-5878d6b9f621","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3ccf66d2-32ee-4601-a080-5878d6b9f621","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"LayerId":{"name":"48263a94-8bfd-48e0-a4ca-e1c3ab5f5732","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"wolfsbane_spr","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"resourceVersion":"1.0","name":"3ccf66d2-32ee-4601-a080-5878d6b9f621","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ca4f0d27-d549-404b-b8db-4ba87ea0038d","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ca4f0d27-d549-404b-b8db-4ba87ea0038d","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"LayerId":{"name":"355a227a-2bf6-4e2f-937a-7d876680c5fa","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"wolfsbane_spr","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"resourceVersion":"1.0","name":"ca4f0d27-d549-404b-b8db-4ba87ea0038d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"wolfsbane_spr","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"bbe7c0c6-e94a-4a47-9c9a-e1c2579956f4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ccf66d2-32ee-4601-a080-5878d6b9f621","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9fe3b461-dce6-4c59-a02d-070beedcbbb4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca4f0d27-d549-404b-b8db-4ba87ea0038d","path":"sprites/wolfsbane_spr/wolfsbane_spr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"48263a94-8bfd-48e0-a4ca-e1c3ab5f5732","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"355a227a-2bf6-4e2f-937a-7d876680c5fa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Herbs",
-    "path": "folders/04_Ingredients/Herbs.yy",
+    "name": "Sprites",
+    "path": "folders/04_Ingredients/Herbs/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "wolfsbane_spr",

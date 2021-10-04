@@ -3,11 +3,23 @@
 image_speed = 0;
 image_alpha = 0.8;
 
-inventoryScr();
+
+if ( room = MainRoom ) {
+	nightSwitchScr(global.night);
+
+}
+
+if ( room = EndlessRoom ) {
+	inventoryScr();	
+}
+
 
 start = 120;
 padding = 0;
 offset = 0;
+
+invStart = 0;
+invMax = 11;
 
 canCreate = true;
 

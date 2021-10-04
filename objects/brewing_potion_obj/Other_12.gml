@@ -1,6 +1,9 @@
-/// @description Insert description here
+/// @description Lose
 // You can write your code in this editor
-
-instance_create_layer(0,0,"Explosion",explosion_obj);
+if ( layer_exists("Explosion") ) {
+	instance_create_layer(0,0,"Explosion",explosion_obj);
+}
+effect1_obj.sprite_index = bubble_spr;
+effect2_obj.sprite_index = bubble_spr;
 
 canWin = false;

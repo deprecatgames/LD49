@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "06_GUI",
-    "path": "folders/06_GUI.yy",
+    "name": "Sprites",
+    "path": "folders/06_GUI/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "inventory_spr",

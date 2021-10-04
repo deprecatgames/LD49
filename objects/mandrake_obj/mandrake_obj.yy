@@ -27,14 +27,13 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Herbs",
-    "path": "folders/04_Ingredients/Herbs.yy",
+    "name": "Objects",
+    "path": "folders/04_Ingredients/Herbs/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "mandrake_obj",
   "tags": [
-    "psychoactive",
-    "pain",
+    "hex",
     "yellow",
   ],
   "resourceType": "GMObject",
