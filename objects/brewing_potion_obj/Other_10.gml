@@ -83,7 +83,7 @@ switch(tag) {
 	else {
 		potionType1 = false;	
 		potionType2 = false;
-		if ( room = EndlessRoom ) {
+		if ( room == EndlessRoom ) {
 			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
@@ -112,7 +112,7 @@ switch(tag) {
 	else {
 		potionType1 = false;	
 		potionType2 = false;
-		if ( room = EndlessRoom ) {
+		if ( room == EndlessRoom ) {
 			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
@@ -141,7 +141,7 @@ switch(tag) {
 	else {
 		potionType1 = false;	
 		potionType2 = false;
-		if ( room = EndlessRoom ) {
+		if ( room == EndlessRoom ) {
 			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
@@ -170,7 +170,7 @@ switch(tag) {
 	else {
 		potionType1 = false;	
 		potionType2 = false;
-		if ( room = EndlessRoom ) {
+		if ( room == EndlessRoom ) {
 			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
@@ -199,7 +199,7 @@ switch(tag) {
 	else {
 		potionType1 = false;	
 		potionType2 = false;
-		if ( room = EndlessRoom ) {
+		if ( room == EndlessRoom ) {
 			if (global.moves > global.maxMoves) event_user(2);
 			with ( witch_obj ) {
 				if ( emotion < 2 ) emotion++;	
@@ -240,5 +240,3 @@ if (!colorMatch) {
 		if ( emotion > 0 ) emotion++;	
 	}
 }
-
-show_debug_message(string(potionType1) + " " + string(potionType2));

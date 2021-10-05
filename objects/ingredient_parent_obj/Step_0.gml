@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if ( !global.menuOpen ) drawFull = false;
+
 if ( position_meeting(mouse_x, mouse_y, id) ) {
-	
 	if ( canClick == true ) {
 		canDraw = true;
 	} else 	canDraw = false;
@@ -16,22 +18,17 @@ if ( position_meeting(mouse_x, mouse_y, id) ) {
 	}
 	
 	if ( mouse_check_button_pressed(mb_right) ) {
-		drawFull = true;	
-		var ok = instance_create_depth(room_width/2, room_height - 330, depth - 1, button_obj);
-		ok.text = "Close";
-		ok.event = 0;
+		if ( !global.menuOpen ) {
+			drawFull = true;	
+			var ok = instance_create_depth(room_width/2, room_height - 330, depth - 1, button_obj);
+			ok.text = "Close";
+			ok.event = 0;
+			global.menuOpen = true;
+		}
 	}
 	
 	if ( mouse_check_button_released(mb_left) ) {
-		if (!place_meeting(mouse_x,mouse_y,brewing_potion_obj) ) {
-			canClick = true;
-			canDrop = false;
-			x = prevX;
-			y = prevY;
-			witch_obj.state = witchStates.armDown;
-			witch_obj.image_index = 0;
-		}
-		else {
+		if ( position_meeting(mouse_x,mouse_y,brewing_potion_obj) && position_meeting(mouse_x, mouse_y, id) ) {			
 			global.moves++;
 			brewing_potion_obj.tag = tag;
 			brewing_potion_obj.newColor = color;
@@ -43,6 +40,14 @@ if ( position_meeting(mouse_x, mouse_y, id) ) {
 			witch_obj.state = witchStates.toss;
 			witch_obj.image_index = 0;
 			instance_destroy();	
+		}
+		else {
+			canClick = true;
+			canDrop = false;
+			x = prevX;
+			y = prevY;
+			witch_obj.state = witchStates.armDown;
+			witch_obj.image_index = 0;
 		}
 	}
 }

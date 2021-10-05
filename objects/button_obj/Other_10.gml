@@ -1,4 +1,3 @@
 /// @description Stop drawing full description
-
-ingredient_parent_obj.drawFull = false;
+global.menuOpen = false;
 instance_destroy();
